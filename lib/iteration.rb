@@ -11,9 +11,7 @@ def join_ingredients(src)
   pizza = []
   array = 0
   while array < src.count do
-    element = 0
-    while element < src[array].count do
-      pizza[array][element] = 
+    pizza[array] = "I love #{src[array][0]} and (inner array element 1) on my pizza"
   
 end
 
