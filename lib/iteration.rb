@@ -25,7 +25,8 @@ def total_even_pairs(src)
   even_sum = 0
   inner_array = 0
   while inner_array < src.count do
-    if (src[inner_array][0] % 2 == 0) and 
+    if (src[inner_array][0] % 2 == 0) and (src[inner_array][1] % 2 == 0) do
+      even_sum += 
   
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
