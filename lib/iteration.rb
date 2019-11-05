@@ -11,11 +11,13 @@ end
 
 def find_greater_pair(src)
   greater = []
-    
-  
-  # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
-  # Produce a new Array that contains the larger number of each of the pairs
-  # that are in the inner Arrays
+  inner_array = 0
+  while inner_array < src.count do
+    src[inner_array].sort
+    greater[inner_array] = src[inner_array][1]
+    inner_array += 1
+  end
+  greater
 end
 
 
