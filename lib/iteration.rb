@@ -8,7 +8,7 @@ def join_ingredients(src)
   pizza
 end
 
-
+src = 
 def find_greater_pair(src)
   greater = []
   inner_array = 0
