@@ -8,7 +8,7 @@ def join_ingredients(src)
   pizza
 end
 
-src = 
+src = [[-1, -900], [10, 30], [0, 0], [14, 16 * -2.5], [Math.sin(1), 19]]
 def find_greater_pair(src)
   greater = []
   inner_array = 0
