@@ -13,7 +13,7 @@ def find_greater_pair(src)
   greater = []
   inner_array = 0
   while inner_array < src.count do
-    src[inner_array].sort
+    src[inner_array].sort!
     greater[inner_array] = src[inner_array][1]
     inner_array += 1
   end
