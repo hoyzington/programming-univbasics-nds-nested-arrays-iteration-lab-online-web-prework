@@ -26,14 +26,9 @@ def total_even_pairs(src)
   inner_array = 0
   while inner_array < src.count do
     if (src[inner_array][0] % 2 == 0) and (src[inner_array][1] % 2 == 0) do
-      even_sum += (src[inner_array][0] + )
-  
-  
-  # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
-  # if both numbers in the pair are even, then add both those numbers to the
-  # total
-  #
-  # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
-  # the number was even. Review the operator documentation if you've forgotten
-  # this!
+      even_sum += (src[inner_array][0] + src[inner_array][1])
+    end
+    inner_array += 1
+  end
+  even_sum
 end
